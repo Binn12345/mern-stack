@@ -16,6 +16,9 @@ const router = express.Router()
 
 router.get('/', getWorkouts)
 router.get('/:id', getWorkout)
+router.post('/', createWorkout)
+router.delete('/:id', deleteWorkout)
+router.patch('/:id', updateWorkout)
 
 // router.get('/hello', () =>{})
 
@@ -26,11 +29,7 @@ router.get('/:id', getWorkout)
 // })
 
 // POST A NEW WORKOUT
-router.post('/', createWorkout)
 
-
-router.delete('/:id', deleteWorkout)
-router.patch('/:id', updateWorkout)
 // // DELETE WORKOUT
 // router.delete('/:id', (req , res) => {
 //     res.json({mssg: 'Delete a workouts'})
