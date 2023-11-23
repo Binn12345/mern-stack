@@ -1,7 +1,7 @@
 ## MERN STACK
 - mvc
-- try catch
-## API
+- try catch 'Error Handling'
 
+## API
 - POSTMAN
 - MONGODB_API
