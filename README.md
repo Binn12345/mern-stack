@@ -1,5 +1,6 @@
 ## MERN STACK
-    
+- mvc
+- try catch
 ## API
 
 - POSTMAN
