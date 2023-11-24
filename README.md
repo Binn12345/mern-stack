@@ -1,6 +1,6 @@
 ## MERN STACK
-- mvc
-- try catch 'Error Handling'
+- MVC
+- TRY CATCH 'Error Handling'
 
 ## FRONTEND
 - REACTJS
