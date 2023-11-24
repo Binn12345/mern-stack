@@ -5,6 +5,12 @@
 :root {
   --primary: #1aac83;
   --error: #e7195a;
+  --warning: lightyellow;
+  --info : lightgray;
+}
+.container h1 {
+  font-family :system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+  font-size : 1.5rem;
 }
 body {
   background: #f1f1f1;
@@ -32,12 +38,72 @@ header a {
   padding: 20px;
   margin: 0 auto;
 }
+.home{
+  display : grid;
+  grid-template-columns : 3fr 1fr;
+  gap : 100px;
+}
+.workout-details{
+  background : #fff;
+  border-radius : 10px;
+  margin : 20px auto;
+  padding : 20px;
+  position : relative;
+  box-shadow : 2px 10px 5px rgba(29, 29, 29, 0.05);
+  font-family :system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-size : 0.80rem;
+}
+.workout-details span {
+  position : absolute;
+  top : 20px;
+  right : 20px;
+  cursor : pointer;
+  background : #f1f1f1;
+  padding : 6px;
+  border-radius : 50%;
+  color : #333;
+}
+.workout-details h4{
+  margin : 0 0 10px 0;
+  font-size : 0.9em;
+  color : var(--primary);
+  text-transform: uppercase;
+}
+.workout-details p{
+  font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size : 0.78rem;
+}
 
-
-
-
-
-
+/* new workout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
 
 
 /* body {
