@@ -15,3 +15,6 @@
 - npm i -S react-scripts
 - npx create-react-app 'appname'
 - npm start
+
+
+
